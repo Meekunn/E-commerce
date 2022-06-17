@@ -1,5 +1,6 @@
 import { FaArrowAltCircleDown } from 'react-icons/fa'
 import Navbar from '../../components/Navbar/Navbar'
+import Section2 from '../Section2/Section2'
 import './section1.scss'
 
 const Section1 = () => {
@@ -13,6 +14,7 @@ const Section1 = () => {
                     <FaArrowAltCircleDown />
                 </div>
             </div>
+            <Section2 />
         </div>
     )
 }

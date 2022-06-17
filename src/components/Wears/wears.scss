@@ -1,0 +1,13 @@
+@use '../../styles/base' as a;
+
+.custom-card {
+    border-radius: 10px;
+    background-color: a.$dark-background;
+}
+.custom-card-title {
+    font-size: 1.2rem;
+    color: a.$light-background;
+}
+.img {
+    border-radius: 5px 5px 0 0;
+}
