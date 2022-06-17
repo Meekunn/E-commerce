@@ -1,0 +1,15 @@
+@use '../../styles/base' as a;
+
+.navbar-fixed nav {
+    background-color: a.$dark-background;
+}
+nav .logo {
+    position: relative;
+    font-family: a.$logo-font;
+    font-size: 1.5rem;
+    color: a.$text-color;
+}
+nav ul .nav-links {
+    font-family: a.$font;
+    color: a.$text-color;
+}

@@ -1,0 +1,23 @@
+@use '../../styles/base' as a;
+
+.custom-container {
+    background: url(../../assets/images/background.jpg);
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.custom-container .bg-overlay {
+    background: rgba(181, 135, 109, 0.4);
+    height: 90%;
+}
+.arrow {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    color: a.$dark-background;
+}
+.arrow svg {
+    font-size: 7rem;
+}
