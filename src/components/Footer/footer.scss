@@ -1,0 +1,72 @@
+@use '../../styles/base' as a;
+
+.main-footer {
+    color: a.$text-color;
+    background-color: a.$dark-background;
+    padding: 1em;
+    bottom: 0;
+    width: 100%;
+}
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 1rem 0.5rem;
+    margin: 0 !important;
+}
+.row .col {
+    display: flex;
+    flex-flow: column wrap;
+    text-align: left;
+}
+h4 {
+    font-size: 1.3rem !important;
+    font-family: a.$logo-font;
+}
+h4:hover, li:hover {
+    color: a.$light-background;
+}
+.list-unstyled {
+    text-align: left;
+    font-family: a.$font;
+    font-size: 0.5rem;
+}
+.list-unstyled li {
+    padding: 0.5rem;
+}
+p {
+    font-size: 0.6rem !important;
+}
+.row > p {
+    width: 100%;
+    text-align: center;
+    font-size: 1rem !important;
+}
+.svg {
+    font-size: 1rem;
+}
+button {
+    padding: 1rem 1.5rem;
+    color: a.$text-color;
+    background-color: a.$light-background;
+    border: 2px solid a.$light-background;
+    border-radius: 20px;
+    font-weight: 500 !important;
+    font-family: a.$font;
+    font-size: 1rem !important;
+}
+button:hover {
+    background-color: a.$text-color;
+    color: a.$light-background;
+}
+
+@media only screen and (min-width: 993px) {
+    .container {
+        width: 80%;
+    }
+}

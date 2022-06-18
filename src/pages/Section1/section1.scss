@@ -2,6 +2,7 @@
 
 .custom-container {
     background: url(../../assets/images/background.jpg);
+    background-repeat: no-repeat;
     background-size: contain;
     height: 100%;
     width: 100%;
@@ -9,7 +10,7 @@
 }
 .custom-container .bg-overlay {
     background: rgba(181, 135, 109, 0.4);
-    height: 90%;
+    height: 100%;
 }
 .arrow {
     display: flex;
@@ -20,5 +21,17 @@
     position: relative;
 }
 .arrow svg {
-    font-size: 7rem;
+    font-size: 3rem;
+}
+
+@media screen and (min-width: 500px ) {
+    .custom-container {
+        background-repeat: repeat;
+    }
+    .bg-overlay {
+        height: 90%;
+    }
+    .arrow svg {
+        font-size: 7rem;
+    }
 }

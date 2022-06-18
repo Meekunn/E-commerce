@@ -2,7 +2,7 @@
 
 .catalog-wrapper {
     background-color: a.$text-color;
-    position: absolute;
+    position: relative;
     width: 100%;
 }
 h2 {
@@ -11,9 +11,11 @@ h2 {
     border-bottom: 2px solid a.$light-background;
     color: a.$light-background;
     font-family: a.$logo-font;
+    margin: 0 !important;
+    padding: 2rem;
 }
 .img-flex {
-    margin: 3rem 5rem;
+    padding: 3rem 5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
