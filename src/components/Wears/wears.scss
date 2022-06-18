@@ -1,13 +1,12 @@
 @use '../../styles/base' as a;
 
-.custom-card {
-    border-radius: 10px;
-    background-color: a.$dark-background;
+.card {
+    background-color: a.$dark-background !important;
 }
-.custom-card-title {
-    font-size: 1.2rem;
-    color: a.$light-background;
+.card-title {
+    font-size: 1.2rem !important;
 }
-.img {
-    border-radius: 5px 5px 0 0;
+.card .card-image img {
+    width: 200px !important;
+    height: 250px !important;
 }

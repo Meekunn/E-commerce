@@ -1,8 +1,9 @@
 @use '../../styles/base' as a;
 
-.women-wrapper {
+.catalog-wrapper {
     background-color: a.$text-color;
     position: absolute;
+    width: 100%;
 }
 h2 {
     font-size: 2.5rem;
@@ -14,6 +15,7 @@ h2 {
 .img-flex {
     margin: 3rem 5rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
