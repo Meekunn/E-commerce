@@ -1,22 +1,31 @@
 {
   "files": {
-    "main.css": "/E-commerce/static/css/main.e3fc8aa9.css",
-    "main.js": "/E-commerce/static/js/main.9d30428c.js",
+    "main.css": "/E-commerce/static/css/main.415f4f70.css",
+    "main.js": "/E-commerce/static/js/main.e521257c.js",
     "static/js/787.0c1a86ef.chunk.js": "/E-commerce/static/js/787.0c1a86ef.chunk.js",
+    "static/media/sneakers3.jpg": "/E-commerce/static/media/sneakers3.9dfd8a9339185792d737.jpg",
     "static/media/gown5.jpg": "/E-commerce/static/media/gown5.252e76a34c4c3dd82297.jpg",
     "static/media/cap1.jpg": "/E-commerce/static/media/cap1.83133262bd104eba2bdc.jpg",
+    "static/media/heels1.jpg": "/E-commerce/static/media/heels1.fa544183081c88cb281f.jpg",
+    "static/media/shirt1.jpg": "/E-commerce/static/media/shirt1.f14c96ecf9105b3da4b8.jpg",
+    "static/media/heels3.jpg": "/E-commerce/static/media/heels3.1f48b9cd092ce014bf2b.jpg",
     "static/media/cap2.jpg": "/E-commerce/static/media/cap2.7327e01055138d6e571f.jpg",
+    "static/media/sneakers1.jpg": "/E-commerce/static/media/sneakers1.c0bac1cec96a02a82d8b.jpg",
     "static/media/gown4.jpg": "/E-commerce/static/media/gown4.a978a3235f51ad6967b6.jpg",
+    "static/media/heels2.jpg": "/E-commerce/static/media/heels2.c01e534d6069af5d1d23.jpg",
+    "static/media/suit.jpg": "/E-commerce/static/media/suit.6124fb7afdbb1dcef16d.jpg",
     "static/media/gown1.jpg": "/E-commerce/static/media/gown1.6df2422b95b482e72774.jpg",
     "static/media/background.jpg": "/E-commerce/static/media/background.6bfb054ef6c106269c03.jpg",
     "static/media/cap3.jpg": "/E-commerce/static/media/cap3.3880160dc52148ff5a1f.jpg",
+    "static/media/shirt2.jpg": "/E-commerce/static/media/shirt2.0b50a7a7e5eb4a0de99b.jpg",
+    "static/media/sneakers2.jpg": "/E-commerce/static/media/sneakers2.2198c3abeaa324145843.jpg",
     "index.html": "/E-commerce/index.html",
-    "main.e3fc8aa9.css.map": "/E-commerce/static/css/main.e3fc8aa9.css.map",
-    "main.9d30428c.js.map": "/E-commerce/static/js/main.9d30428c.js.map",
+    "main.415f4f70.css.map": "/E-commerce/static/css/main.415f4f70.css.map",
+    "main.e521257c.js.map": "/E-commerce/static/js/main.e521257c.js.map",
     "787.0c1a86ef.chunk.js.map": "/E-commerce/static/js/787.0c1a86ef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3fc8aa9.css",
-    "static/js/main.9d30428c.js"
+    "static/css/main.415f4f70.css",
+    "static/js/main.e521257c.js"
   ]
 }
